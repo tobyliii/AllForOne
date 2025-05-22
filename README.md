@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# All For One Initiative
+
+Send your photo to space and have it returned to you as a space-flown keepsake.
+
+## About
+
+The All for One Initiative is a global spaceflight-inspired campaign dedicated to empowering the next generation of explorers. We help children see a future for themselves in space and STEM by providing them with a tangible connection to humanity's journey beyond Earth.
+
+### How It Works
+
+1. **Submit** - Upload your photo through our submission form
+2. **Prepare** - We print and pack your photo for spaceflight
+3. **Launch** - Your photo crosses the Kármán Line (the internationally recognized boundary of space)
+4. **Return** - Your space-flown photo is mailed back to you with an official certification
+
+## Features
+
+- **Next.js 15** - Modern React framework
+- **Framer Motion** - Smooth animations and transitions
+- **Tailwind CSS** - Utility-first CSS framework
+- **TypeScript** - Type-safe development
+- **Google APIs** - Integration for form submissions and data management
+- **Responsive Design** - Optimized for all devices
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│   ├── page.tsx          # Main homepage component
+│   ├── api/              # API routes
+│   └── globals.css       # Global styles
+├── components/           # Reusable components
+└── public/
+    └── images/          # Static images
+```
 
-## Learn More
+## Dependencies
 
-To learn more about Next.js, take a look at the following resources:
+- **framer-motion** - Animation library for React
+- **googleapis** - Google APIs client library
+- **next** - The React framework for production
+- **react** - JavaScript library for building user interfaces
+- **tailwindcss** - CSS framework
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project aims to make space accessible for everyone. If you'd like to contribute:
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## Contact
+
+For questions about the All for One Initiative, visit our website or contact us at contact@allforone.space
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+© 2025 All for One Initiative. Making space accessible for everyone.
