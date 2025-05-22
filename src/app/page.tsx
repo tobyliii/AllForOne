@@ -258,10 +258,7 @@ export default function HomePage() {
             {/* Text Content */}
             <motion.div className="space-y-6 text-lg leading-relaxed" variants={staggerContainer}>
               <motion.p variants={fadeInUp}>
-                The All for One Initiative is a global spaceflight-inspired campaign dedicated to empowering the next generation of explorers. At its core, the initiative aims to ignite imagination, foster belonging, and build confidence in young people—especially those from historically underrepresented communities—by helping them see a future for themselves in space and STEM.
-              </motion.p>
-              <motion.p variants={fadeInUp}>
-                Through emotionally resonant storytelling and bold, symbolic actions, the initiative provides children with a tangible connection to humanity&apos;s journey beyond Earth. It serves as a reminder that space is not just for astronauts or the elite, but for all of us—dreamers, doers, and future pioneers.
+                The All for One Initiative is a global spaceflight-inspired campaign dedicated to empowering the next generation of explorers. At its core, the initiative aims to ignite imagination, foster belonging, and build confidence in young people by helping them see a future for themselves in space and STEM. It serves as a reminder that space is not just for the select few, but for all of us - dreamers, doers, and future pioneers.
               </motion.p>
               <motion.p variants={fadeInUp}>
                 All for One is about representation, inspiration, and building an inclusive vision of space exploration where every child can see themselves among the stars.
