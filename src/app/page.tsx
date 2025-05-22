@@ -191,7 +191,7 @@ export default function HomePage() {
               2
             </div>
             <h4 className="font-bold text-white mb-3 text-xl">Prepare</h4>
-            <p className="text-blue-100">We print & pack for flight</p>
+            <p className="text-blue-100">We print &amp; pack for flight</p>
           </motion.div>
           
           <motion.div 
@@ -219,7 +219,7 @@ export default function HomePage() {
               4
             </div>
             <h4 className="font-bold text-white mb-3 text-xl">Return</h4>
-            <p className="text-blue-100">Photo is mailed back to you with an official "space-flown" stamp</p>
+            <p className="text-blue-100">Photo is mailed back to you with an official &ldquo;space-flown&rdquo; stamp</p>
           </motion.div>
         </div>
       </motion.section>
@@ -261,7 +261,7 @@ export default function HomePage() {
                 The All for One Initiative is a global spaceflight-inspired campaign dedicated to empowering the next generation of explorers. At its core, the initiative aims to ignite imagination, foster belonging, and build confidence in young people—especially those from historically underrepresented communities—by helping them see a future for themselves in space and STEM.
               </motion.p>
               <motion.p variants={fadeInUp}>
-                Through emotionally resonant storytelling and bold, symbolic actions, the initiative provides children with a tangible connection to humanity's journey beyond Earth. It serves as a reminder that space is not just for astronauts or the elite, but for all of us—dreamers, doers, and future pioneers.
+                Through emotionally resonant storytelling and bold, symbolic actions, the initiative provides children with a tangible connection to humanity&apos;s journey beyond Earth. It serves as a reminder that space is not just for astronauts or the elite, but for all of us—dreamers, doers, and future pioneers.
               </motion.p>
               <motion.p variants={fadeInUp}>
                 All for One is about representation, inspiration, and building an inclusive vision of space exploration where every child can see themselves among the stars.
@@ -347,7 +347,7 @@ export default function HomePage() {
             <strong>Toby Li</strong> is an incoming Master of Science in Astronautical Engineering student at the University of Southern California and a soon-to-be Bachelor of Science in Aerospace Engineering graduate from UC Davis, with a proven track record of advancing equity in human spaceflight through research and outreach. His technical accomplishments include building an analog full-scale astronaut space habitat mockup for NASA-funded research and conducting bioastronautics research focused on understanding how the human body changes during spaceflight. Beyond academia, Toby has established himself as a prominent voice in space media, building a human spaceflight platform that reached over 16 million impressions in 2023 alone and earning interviews with major outlets including the BBC.
           </p>
           <p className="leading-relaxed text-lg">
-            This platform has led to significant industry engagement - receiving media credentials to attend exclusive events by aerospace giants and served as a panelist speaker at the 2025 Canadian Space Conference discussing Canada's future in spaceflight. Toby also loves to seek adrenaline in his free time and has solo skydiver and PADI rescue scuba diver certifications.
+            This platform has led to significant industry engagement - receiving media credentials to attend exclusive events by aerospace giants and served as a panelist speaker at the 2025 Canadian Space Conference discussing Canada&apos;s future in spaceflight. Toby also loves to seek adrenaline in his free time and has solo skydiver and PADI rescue scuba diver certifications.
           </p>
         </motion.div>
       </motion.section>
@@ -361,7 +361,7 @@ export default function HomePage() {
         variants={fadeInUp}
       >
         <h2 className="text-4xl font-bold mb-8 text-white">
-          Watch Blue Origin's Last Human Spaceflight Mission
+          Watch Blue Origin&apos;s Last Human Spaceflight Mission
         </h2>
         <div className="max-w-4xl mx-auto">
           <div className="aspect-video bg-gray-800 rounded-lg overflow-hidden shadow-2xl">
