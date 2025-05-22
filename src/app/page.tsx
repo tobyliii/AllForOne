@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { google } from 'googleapis' // ⛔ remove this
 
 export default function HomePage() {
   const [showNavbar, setShowNavbar] = useState(false)
